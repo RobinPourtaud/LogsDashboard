@@ -62,3 +62,23 @@ Some improvements that could be done:
 - Remove all 'any' types from the code
 - Add tests
 - Rewrite some part of the API to use build in function directly from the database
+
+## Final Thoughts
+
+Building the Logs Dashboard has been a rewarding experience using NextJS, SQLite, and FastAPI. Here are some key points:
+
+### Tech Stack Choices
+
+- **NextJS**: Great for creating a fast and interactive frontend with features like server-side rendering.
+- **SQLite**: A lightweight database that is easy to set up and works well for this project.
+- **FastAPI**: Chosen for its speed and ease of use, making it simple to create a RESTful API.
+
+### Future Enhancements
+
+- Add user authentication for better security.
+- Implement advanced analytics features for deeper insights into logs.
+- Consider more robust database options as the project scales.
+- Devide the backend, frontend and database in different server, not all in one.
+- All the code optimization in the frontend. (remove all any types for example)
+
+Overall, this project allowed me to effectively combine modern technologies to create a functional logs management system. I look forward to further improvements and learning opportunities!
